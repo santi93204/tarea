@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gestión de Horarios</title>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Horarios</h1>
+    </header>
+    <main>
+        <h2>Crea o Modifica tu Horario</h2>
+        <form id="formHorario">
+            <label for="clase">Clase:</label>
+            <input type="text" id="clase" name="clase" required>
+            
+            <label for="dia">Día:</label>
+            <select id="dia" name="dia" required>
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+            </select>
+            
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            
+            <button type="submit">Guardar Horario</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Software de Gestión</p>
+    </footer>
+</body>
+</html>

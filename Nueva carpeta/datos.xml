@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horarios>
+    <horario>
+        <clase>Matemáticas</clase>
+        <dia>Lunes</dia>
+        <hora>08:00</hora>
+    </horario>
+    <horario>
+        <clase>Programación</clase>
+        <dia>Miércoles</dia>
+        <hora>10:00</hora>
+    </horario>
+    <horario>
+        <clase>Física</clase>
+        <dia>Viernes</dia>
+        <hora>11:00</hora>
+    </horario>
+</horarios>

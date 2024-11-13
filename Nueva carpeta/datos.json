@@ -1,0 +1,20 @@
+{
+    "horarios": [
+      {
+        "clase": "Matemáticas",
+        "dia": "Lunes",
+        "hora": "08:00"
+      },
+      {
+        "clase": "Programación",
+        "dia": "Miércoles",
+        "hora": "10:00"
+      },
+      {
+        "clase": "Física",
+        "dia": "Viernes",
+        "hora": "11:00"
+      }
+    ]
+  }
+  

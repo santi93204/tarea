@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Consulta de Horarios</title>
+</head>
+<body>
+    <header>
+        <h1>Consulta de Horarios</h1>
+    </header>
+
+    <main>
+        <h2>Filtrar Horarios</h2>
+        <form id="formConsulta">
+            <label for="semestre">Semestre:</label>
+            <select id="semestre" name="semestre">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="carrera">Carrera:</label>
+            <select id="carrera" name="carrera">
+                <option value="ingenieria">Ingeniería</option>
+                <option value="administracion">Administración</option>
+            </select>
+
+            <button type="submit">Consultar Horarios</button>
+        </form>
+
+        <h3>Horarios Cargados</h3>
+        <div id="horarios"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Software de Gestión</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
